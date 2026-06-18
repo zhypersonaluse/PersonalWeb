@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="site-title">Your Name</div>
+      <nav role="tablist">
+        <button class="tab-btn" data-tab="home"          role="tab">Home</button>
+        <button class="tab-btn" data-tab="info"          role="tab">Info</button>
+        <button class="tab-btn" data-tab="experience"    role="tab">Experience</button>
+        <button class="tab-btn" data-tab="hobby-projects" role="tab">Hobby Projects</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── Home ── -->
+    <section id="home" class="tab-panel" role="tabpanel">
+      <h1>Hi, I'm Your Name 👋</h1>
+      <p class="home-tagline">Software engineer · based in [City] · building things I care about.</p>
+      <p>
+        Welcome to my corner of the internet. I work on [what you work on], care deeply about
+        [what you care about], and spend my free time on [hobbies / side projects].
+      </p>
+      <div class="home-links">
+        <a class="pill" href="mailto:you@example.com">✉ Email</a>
+        <a class="pill" href="https://github.com/yourhandle" target="_blank" rel="noopener">⌥ GitHub</a>
+        <a class="pill" href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener">in LinkedIn</a>
+      </div>
+    </section>
+
+    <!-- ── Info ── -->
+    <section id="info" class="tab-panel" role="tabpanel">
+      <h2>About me</h2>
+      <p>
+        A short bio paragraph. Where you're from, what you studied, what drives you.
+        Keep it human — this is the page where people decide whether they want to reach out.
+      </p>
+
+      <h2>Details</h2>
+      <div class="info-grid">
+        <span class="info-label">Location</span>
+        <span class="info-value">City, Country</span>
+
+        <span class="info-label">Education</span>
+        <span class="info-value">B.S. Computer Science — University Name, 20XX</span>
+
+        <span class="info-label">Currently</span>
+        <span class="info-value">Role at Company</span>
+
+        <span class="info-label">Languages</span>
+        <span class="info-value">English (native), [Other]</span>
+
+        <span class="info-label">Interests</span>
+        <span class="info-value">Open source, [interest 2], [interest 3]</span>
+      </div>
+
+      <h2>Skills</h2>
+      <div class="tag-list">
+        <span class="tag">Python</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">TypeScript</span>
+        <span class="tag">React</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Git</span>
+        <span class="tag">Docker</span>
+      </div>
+    </section>
+
+    <!-- ── Experience ── -->
+    <section id="experience" class="tab-panel" role="tabpanel">
+      <h2>Work Experience</h2>
+      <div class="exp-list">
+
+        <div class="exp-item">
+          <div class="exp-role">Principal Data Science</div>
+          <div class="exp-company">Capital One Services(Previous Discover)</div>
+          <div class="exp-dates">Oct 2024 – Present</div>
+          <p class="exp-desc">
+            Brief description of what you did and the impact it had. One to two sentences works well here.
+          </p>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-role">Senior Modeler</div>
+          <div class="exp-company">Discoer Financial Services</div>
+          <div class="exp-dates">May 2022 – Oct 2024</div>
+          <p class="exp-desc">
+            Brief description of responsibilities and accomplishments.
+          </p>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-role">Modeler</div>
+          <div class="exp-company">Discoer Financial Services</div>
+          <div class="exp-dates">Jun 2021 – May 2022</div>
+          <p class="exp-desc">
+            What you built during the internship.
+          </p>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-role">Model Risk Officer Assitant</div>
+          <div class="exp-company">Comerica Bank</div>
+          <div class="exp-dates">Aug 2020 – Jun 2021</div>
+          <p class="exp-desc">
+            What you built during the internship.
+          </p>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-role">Model Implementation Officer Assitant</div>
+          <div class="exp-company">Comerica Bank</div>
+          <div class="exp-dates">Feb 2018 – Aug 2020</div>
+          <p class="exp-desc">
+            What you built during the internship.
+          </p>
+        </div>
+
+
+        <div class="exp-item">
+          <div class="exp-role">Business Associate Intern</div>
+          <div class="exp-company">MedeAnalytics</div>
+          <div class="exp-dates">May 2015 – Nov 2015</div>
+          <p class="exp-desc">
+            What you built during the internship.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Hobby Projects ── -->
+    <section id="hobby-projects" class="tab-panel" role="tabpanel">
+      <h2>Hobby Projects</h2>
+      <p>Things I built for fun, learning, or because I couldn't find something that already did it.</p>
+
+      <div class="project-grid">
+
+        <div class="project-card">
+          <div class="project-name">Project One</div>
+          <p class="project-desc">One or two sentences describing what this project does and why you built it.</p>
+          <div class="tag-list">
+            <span class="tag">Python</span>
+            <span class="tag">FastAPI</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-name">Project Two</div>
+          <p class="project-desc">Short description. Link to repo or demo below if you have one.</p>
+          <div class="tag-list">
+            <span class="tag">React</span>
+            <span class="tag">TypeScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-name">Project Three</div>
+          <p class="project-desc">What problem does this solve? Who uses it?</p>
+          <div class="tag-list">
+            <span class="tag">Rust</span>
+            <span class="tag">CLI</span>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="year"></span> Your Name · Built with plain HTML & CSS
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
